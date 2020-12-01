@@ -1,0 +1,1333 @@
+{
+  "brand": {
+    "DevicesNum": [23, 5, 5, 7, 1, 5],
+    "Devices_error": [3, 1, 0, 0, 0, 0],
+    "brand": ["华为", "VIVO", "OPPO", "小米", "三星", "其他"]
+  },
+  "Trend": {
+    "arrayVersion": ["2.1.3(台服)"],
+    "arrayPassRate": [91]
+  },
+  "Summery": {
+    "Result": false,
+    "Date": "2020-11-16",
+    "Version": "2.1.3(台服)",
+    "Platform": "Android",
+    "DevicesNum": 46,
+    "ProblemDevices": 4,
+    "PassRate": 91,
+    "PassRateHistory": 91,
+    "DeviceRequire": "骁龙630，Android8",
+    "IconPath":""
+  },
+  "TestStep": [
+    {
+    "stepName": "登录游戏",
+    "result": false,
+    "ProblemDevices": 2
+  }, {
+    "stepName": "新手引导",
+    "result": true,
+    "ProblemDevices": null
+  }, {
+    "stepName": "剧情->七日轮回",
+    "result": false,
+    "ProblemDevices": 2
+  }, {
+    "stepName": "首充",
+    "result": true,
+    "ProblemDevices": null
+  }, {
+    "stepName": "召唤",
+    "result": true,
+    "ProblemDevices": null
+  }, {
+    "stepName": "日志",
+    "result": true,
+    "ProblemDevices": null
+  }, {
+    "stepName": "强化",
+    "result": true,
+    "ProblemDevices": null
+  }, {
+    "stepName": "挑战",
+    "result": true,
+    "ProblemDevices": null
+  }, {
+    "stepName": "讨伐",
+    "result": true,
+    "ProblemDevices": null
+  }, {
+    "stepName": "更多",
+    "result": true,
+    "ProblemDevices": null
+  }],
+  "error_type": {
+    "InstallFail": [],
+    "LaunchFail": [],
+    "ForceExit": [],
+    "Black": [],
+    "FuncError": [
+      {
+        "FailType": "功能错误",
+        "Step": "1-3装备引导",
+        "Time": "2020-11-13 11/25/17",
+        "ScreenShot": "剧情->七日轮回-2020-11-13 11:25:17.jpg",
+        "detail": "点击升级道具没有反应",
+        "id": 683,
+        "deviceNum": "VIVO Y85A",
+        "DevicePath": "/adapt/从零开始的异世界生活-无限/2.1.3(台服)(适配)/Android/2020-11-16/VIVO Y85A"
+      }, {
+        "FailType": "功能错误",
+        "Step": "登录游戏",
+        "Time": "2020-11-15 12/59/22",
+        "ScreenShot": "新手引导-2020-11-15 12:59:22.png",
+        "detail": "卡在登录界面",
+        "id": 688,
+        "deviceNum": "华为 nova 5",
+        "DevicePath": "/adapt/从零开始的异世界生活-无限/2.1.3(台服)(适配)/Android/2020-11-16/华为 nova5"
+      }, {
+        "FailType": "功能错误",
+        "Step": "登录游戏",
+        "Time": "2020-11-13 17/44/33",
+        "ScreenShot": "新手引导-2020-11-13 17:44:33.png",
+        "detail": "卡在登录界面",
+        "id": 693,
+        "deviceNum": "华为 nova 4e",
+        "DevicePath": "/adapt/从零开始的异世界生活-无限/2.1.3(台服)(适配)/Android/2020-11-16/华为 Nova4e"
+      }, {
+        "FailType": "功能错误",
+        "Step": "1-3装备引导",
+        "Time": "2020-11-15 12/59/22",
+        "ScreenShot": "剧情->七日轮回-2020-11-13 11:25:01.jpg",
+        "detail": "点击升级道具无反应",
+        "id": 701,
+        "deviceNum": "华为 荣耀9",
+        "DevicePath": "/adapt/从零开始的异世界生活-无限/2.1.3(台服)(适配)/Android/2020-11-16/华为 荣耀9"
+      }],
+    "NoRep": [],
+    "UiError": [],
+    "Other": []
+  },
+  "cpu": {
+    "Current": 12.95,
+    "HistoryAvg": 12.43,
+    "TypeAvg": 25.56
+  },
+  "memory": {
+    "Current": 710.99,
+    "HistoryAvg": 703.45,
+    "TypeAvg": 1117.83
+  },
+  "data": {
+    "Current": 8.89,
+    "HistoryAvg": 14.26,
+    "TypeAvg": 167.98
+  },
+  "fps": {
+    "Current": 25.68,
+    "HistoryAvg": 28.14,
+    "TypeAvg": 43.76
+  },
+  "Analysis": {
+    "brand": {
+      "DevicesNum": [20, 4, 5, 7, 1, 5],
+      "Devices_error": [3, 1, 0, 0, 0, 0],
+      "brand": ["华为", "VIVO", "OPPO", "小米", "三星", "其他"]
+    },
+    "total_memory": {
+      "DevicesNum": [0, 2, 17, 16, 7, 0],
+      "Devices_error": [0, 0, 2, 1, 1, 0],
+      "total_memory": [2, 3, 4, 6, 8, "其他"]
+    },
+    "resolution": {
+      "DevicesNum": [4, 14, 0, 0, 3, 21],
+      "Devices_error": [1, 1, 0, 0, 0, 2],
+      "resolution": ["1920x1080", "2340x1080", "1280x720", "1334x750", "2160x1080", "其他"]
+    },
+    "system_version": {
+      "DevicesNum": [8, 17, 11, 6, 0, 0],
+      "Devices_error": [0, 2, 1, 1, 0, 0],
+      "system_version": ["Android10", "Android9", "Android8", "Android7", "Android6", "其他"]
+    }
+  },
+  "Performance": {
+    "cpu": {
+      "DevicesNum": [6, 33, 1, 1, 1],
+      "Devices_error": [2, 2, 0, 0, 0],
+      "cpu": [
+        [0, 10],
+        [10, 20],
+        [20, 30],
+        [30, 50]
+      ]
+    },
+    "memory": {
+      "DevicesNum": [6, 3, 1, 23, 9],
+      "Devices_error": [0, 0, 0, 4, 0],
+      "memory": [
+        [0, 100],
+        [100, 200],
+        [200, 500],
+        [500, 1000]
+      ]
+    },
+    "fps": {
+      "DevicesNum": [0, 5, 35, 1, 1],
+      "Devices_error": [0, 0, 2, 2, 0],
+      "fps": [
+        [0, 10],
+        [10, 20],
+        [20, 30],
+        [30, 50]
+      ]
+    },
+    "data": {
+      "DevicesNum": [37, 0, 0, 0, 5],
+      "Devices_error": [3, 0, 0, 0, 1],
+      "data": [
+        [0, 100],
+        [100, 200],
+        [200, 500],
+        [500, 1000]
+      ]
+    },
+    "bat": {
+      "DevicesNum": [0, 0, 0, 0, 42],
+      "Devices_error": [0, 0, 0, 0, 4],
+      "bat": [
+        [0, 10],
+        [10, 20],
+        [20, 30],
+        [30, 50]
+      ]
+    },
+    "temp": {
+      "DevicesNum": [0, 0, 3, 35, 4],
+      "Devices_error": [0, 0, 0, 3, 1],
+      "temp": [
+        [0, 10],
+        [10, 20],
+        [20, 30],
+        [30, 50]
+      ]
+    },
+    "History": {
+      "version": ["2.1.3(台服)(适配)"],
+      "cpu": [12.95],
+      "memory": [710.99],
+      "fps": [25.68],
+      "data": [8.89],
+      "bat": [0.0],
+      "temp": [32.32]
+    }
+  },
+  "Devices":[
+    {
+    "DeviceName": "vivo Y5s",
+    "id": 675,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 9",
+    "perf": {
+      "max_cpu": 0,
+      "avg_cpu": 0,
+      "avg_fps": 0,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 0,
+      "avg_memory": 0,
+      "avg_send": 0,
+      "avg_recv": 0,
+      "avg_data": 0,
+      "max_temp": 0,
+      "avg_temp": 0,
+      "avg_bat": 0,
+      "bad_fps_times": 2.0,
+      "bad_fps_ratio": 1.0
+    }
+  }, {
+    "DeviceName": "OPPO A83",
+    "id": 676,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "1440x720",
+    "SystemVersion": "Android 7.1",
+    "perf": {
+      "max_cpu": 35.73,
+      "avg_cpu": 20.3,
+      "avg_fps": 22.57,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1280.66,
+      "avg_memory": 980.32,
+      "avg_send": 0.7,
+      "avg_recv": 0.11,
+      "avg_data": 0.81,
+      "max_temp": 41.0,
+      "avg_temp": 38.93,
+      "avg_bat": 0,
+      "bad_fps_times": 1254.0,
+      "bad_fps_ratio": 0.54
+    }
+  }, {
+    "DeviceName": "OPPO K1",
+    "id": 677,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 8.1",
+    "perf": {
+      "max_cpu": 24.06,
+      "avg_cpu": 11.73,
+      "avg_fps": 25.44,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1225.83,
+      "avg_memory": 874.35,
+      "avg_send": 72.83,
+      "avg_recv": 1.17,
+      "avg_data": 74.0,
+      "max_temp": 41.0,
+      "avg_temp": 39.55,
+      "avg_bat": 0,
+      "bad_fps_times": 1481.0,
+      "bad_fps_ratio": 0.31
+    }
+  }, {
+    "DeviceName": "OPPO K3",
+    "id": 678,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 26.85,
+      "avg_cpu": 10.15,
+      "avg_fps": 29.07,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 685.98,
+      "avg_memory": 114.8,
+      "avg_send": 1.64,
+      "avg_recv": 0.19,
+      "avg_data": 1.83,
+      "max_temp": 28.8,
+      "avg_temp": 27.77,
+      "avg_bat": 0,
+      "bad_fps_times": 27.0,
+      "bad_fps_ratio": 0.1
+    }
+  }, {
+    "DeviceName": "OPPO R17",
+    "id": 679,
+    "Result": true,
+    "Memory": "8GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 8.1",
+    "perf": {
+      "max_cpu": 32.33,
+      "avg_cpu": 15.28,
+      "avg_fps": 26.62,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1412.1,
+      "avg_memory": 986.15,
+      "avg_send": 18.06,
+      "avg_recv": 0.18,
+      "avg_data": 18.24,
+      "max_temp": 35.9,
+      "avg_temp": 34.01,
+      "avg_bat": 0,
+      "bad_fps_times": 599.0,
+      "bad_fps_ratio": 0.24
+    }
+  }, {
+    "DeviceName": "Realme X",
+    "id": 680,
+    "Result": true,
+    "Memory": "8GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 23.81,
+      "avg_cpu": 10.63,
+      "avg_fps": 28.6,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1074.61,
+      "avg_memory": 880.07,
+      "avg_send": 6.85,
+      "avg_recv": 0.13,
+      "avg_data": 6.98,
+      "max_temp": 35.9,
+      "avg_temp": 34.21,
+      "avg_bat": 0,
+      "bad_fps_times": 165.0,
+      "bad_fps_ratio": 0.06
+    }
+  }, {
+    "DeviceName": "OPPO RenoZ",
+    "id": 681,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 10.0",
+    "perf": {
+      "max_cpu": 24.77,
+      "avg_cpu": 8.58,
+      "avg_fps": 26.34,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1511.62,
+      "avg_memory": 1098.56,
+      "avg_send": 8.2,
+      "avg_recv": 0.11,
+      "avg_data": 8.31,
+      "max_temp": 40.4,
+      "avg_temp": 36.82,
+      "avg_bat": 0,
+      "bad_fps_times": 726.0,
+      "bad_fps_ratio": 0.24
+    }
+  }, {
+    "DeviceName": "VIVO IQOO NEO",
+    "id": 682,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 24.82,
+      "avg_cpu": 10.86,
+      "avg_fps": 28.91,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1250.04,
+      "avg_memory": 951.83,
+      "avg_send": 15.42,
+      "avg_recv": 0.12,
+      "avg_data": 15.54,
+      "max_temp": 37.0,
+      "avg_temp": 35.26,
+      "avg_bat": 0,
+      "bad_fps_times": 446.0,
+      "bad_fps_ratio": 0.11
+    }
+  }, {
+    "DeviceName": "VIVO Y85A",
+    "id": 683,
+    "Result": false,
+    "Memory": "4GB",
+    "Screen": "2280x1080",
+    "SystemVersion": "Android 8.1",
+    "perf": {
+      "max_cpu": 30.88,
+      "avg_cpu": 13.9,
+      "avg_fps": 34.01,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1104.73,
+      "avg_memory": 936.25,
+      "avg_send": 10.56,
+      "avg_recv": 0.3,
+      "avg_data": 10.86,
+      "max_temp": 38.7,
+      "avg_temp": 36.74,
+      "avg_bat": 0,
+      "bad_fps_times": 929.0,
+      "bad_fps_ratio": 0.25
+    }
+  }, {
+    "DeviceName": "VIVO Z1",
+    "id": 684,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2280x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 26.61,
+      "avg_cpu": 13.4,
+      "avg_fps": 38.5,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1033.5,
+      "avg_memory": 884.18,
+      "avg_send": 6.63,
+      "avg_recv": 0.15,
+      "avg_data": 6.78,
+      "max_temp": 34.3,
+      "avg_temp": 31.26,
+      "avg_bat": 0,
+      "bad_fps_times": 214.0,
+      "bad_fps_ratio": 0.2
+    }
+  }, {
+    "DeviceName": "VIVO Z5 X",
+    "id": 685,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 23.62,
+      "avg_cpu": 12.92,
+      "avg_fps": 27.52,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 221.5,
+      "avg_memory": 4.42,
+      "avg_send": 2.36,
+      "avg_recv": 0.17,
+      "avg_data": 2.53,
+      "max_temp": 35.0,
+      "avg_temp": 33.2,
+      "avg_bat": 0,
+      "bad_fps_times": 616.0,
+      "bad_fps_ratio": 0.22
+    }
+  }, {
+    "DeviceName": "红米9",
+    "id": 686,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 10",
+    "perf": {
+      "max_cpu": 13.94,
+      "avg_cpu": 5.34,
+      "avg_fps": 28.34,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1386.26,
+      "avg_memory": 1008.04,
+      "avg_send": 0,
+      "avg_recv": 0,
+      "avg_data": 0,
+      "max_temp": 0,
+      "avg_temp": 0,
+      "avg_bat": 0,
+      "bad_fps_times": 737.0,
+      "bad_fps_ratio": 0.29
+    }
+  }, {
+    "DeviceName": "小米 红米Note7",
+    "id": 687,
+    "Result": true,
+    "Memory": "3GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 37.83,
+      "avg_cpu": 17.53,
+      "avg_fps": 24.05,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1272.74,
+      "avg_memory": 823.38,
+      "avg_send": 2.28,
+      "avg_recv": 0.14,
+      "avg_data": 2.42,
+      "max_temp": 43.0,
+      "avg_temp": 41.42,
+      "avg_bat": 0,
+      "bad_fps_times": 1291.0,
+      "bad_fps_ratio": 0.49
+    }
+  }, {
+    "DeviceName": "华为 nova 5",
+    "id": 688,
+    "Result": false,
+    "Memory": "8GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 18.85,
+      "avg_cpu": 9.78,
+      "avg_fps": 38.4,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 718.47,
+      "avg_memory": 607.37,
+      "avg_send": 0,
+      "avg_recv": 0,
+      "avg_data": 0,
+      "max_temp": 0,
+      "avg_temp": 0,
+      "avg_bat": 0,
+      "bad_fps_times": 82.0,
+      "bad_fps_ratio": 0.27
+    }
+  }, {
+    "DeviceName": "华为 nova 5i",
+    "id": 689,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2310x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 27.3,
+      "avg_cpu": 12.22,
+      "avg_fps": 22.53,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 683.37,
+      "avg_memory": 117.44,
+      "avg_send": 21.06,
+      "avg_recv": 0.13,
+      "avg_data": 21.19,
+      "max_temp": 40.0,
+      "avg_temp": 37.85,
+      "avg_bat": 0,
+      "bad_fps_times": 1636.0,
+      "bad_fps_ratio": 0.45
+    }
+  }, {
+    "DeviceName": "华为nova 7",
+    "id": 690,
+    "Result": true,
+    "Memory": "8GB",
+    "Screen": "2400x1080",
+    "SystemVersion": "Android 10",
+    "perf": {
+      "max_cpu": 9.84,
+      "avg_cpu": 5.73,
+      "avg_fps": 25.87,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1423.1,
+      "avg_memory": 1057.2,
+      "avg_send": 0,
+      "avg_recv": 0,
+      "avg_data": 0,
+      "max_temp": 34.0,
+      "avg_temp": 32.76,
+      "avg_bat": 0,
+      "bad_fps_times": 708.0,
+      "bad_fps_ratio": 0.21
+    }
+  }, {
+    "DeviceName": "华为nova7 SE",
+    "id": 691,
+    "Result": true,
+    "Memory": "8GB",
+    "Screen": "2400x1080",
+    "SystemVersion": "Android 10",
+    "perf": {
+      "max_cpu": 26.64,
+      "avg_cpu": 14.01,
+      "avg_fps": 28.56,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1456.39,
+      "avg_memory": 1092.99,
+      "avg_send": 53.15,
+      "avg_recv": 0.17,
+      "avg_data": 53.32,
+      "max_temp": 37.0,
+      "avg_temp": 35.84,
+      "avg_bat": 0,
+      "bad_fps_times": 232.0,
+      "bad_fps_ratio": 0.08
+    }
+  }, {
+    "DeviceName": "华为 nova",
+    "id": 692,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "1920x1080",
+    "SystemVersion": "Android 7.0",
+    "perf": {
+      "max_cpu": 30.17,
+      "avg_cpu": 13.66,
+      "avg_fps": 25.48,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1275.17,
+      "avg_memory": 960.64,
+      "avg_send": 7.16,
+      "avg_recv": 0.13,
+      "avg_data": 7.29,
+      "max_temp": 40.7,
+      "avg_temp": 38.09,
+      "avg_bat": 0,
+      "bad_fps_times": 1355.0,
+      "bad_fps_ratio": 0.36
+    }
+  }, {
+    "DeviceName": "华为 nova 4e",
+    "id": 693,
+    "Result": false,
+    "Memory": "6GB",
+    "Screen": "2312x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 19.5,
+      "avg_cpu": 8.85,
+      "avg_fps": 28.74,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 694.96,
+      "avg_memory": 652.45,
+      "avg_send": 0.45,
+      "avg_recv": 0,
+      "avg_data": 0.45,
+      "max_temp": 36.0,
+      "avg_temp": 35.98,
+      "avg_bat": 0,
+      "bad_fps_times": 21.0,
+      "bad_fps_ratio": 0.01
+    }
+  }, {
+    "DeviceName": "华为 nova5 pro",
+    "id": 694,
+    "Result": true,
+    "Memory": "8GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 26.96,
+      "avg_cpu": 11.69,
+      "avg_fps": 27.96,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1406.92,
+      "avg_memory": 1015.05,
+      "avg_send": 0,
+      "avg_recv": 0,
+      "avg_data": 0,
+      "max_temp": 0,
+      "avg_temp": 0,
+      "avg_bat": 0,
+      "bad_fps_times": 289.0,
+      "bad_fps_ratio": 0.13
+    }
+  }, {
+    "DeviceName": "华为 P10PLUS",
+    "id": 695,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2560x1440",
+    "SystemVersion": "Android 7.0",
+    "perf": {
+      "max_cpu": 33.03,
+      "avg_cpu": 13.17,
+      "avg_fps": 15.87,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1072.89,
+      "avg_memory": 892.97,
+      "avg_send": 0.33,
+      "avg_recv": 0.09,
+      "avg_data": 0.42,
+      "max_temp": 40.0,
+      "avg_temp": 38.27,
+      "avg_bat": 0,
+      "bad_fps_times": 1534.0,
+      "bad_fps_ratio": 0.88
+    }
+  }, {
+    "DeviceName": "华为 畅享10 plus",
+    "id": 696,
+    "Result": true,
+    "Memory": "8GB",
+    "Screen": "2340x108",
+    "SystemVersion": "Android 10",
+    "perf": {
+      "max_cpu": 27.51,
+      "avg_cpu": 16.03,
+      "avg_fps": 26.3,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1486.75,
+      "avg_memory": 1066.81,
+      "avg_send": 18.56,
+      "avg_recv": 0.2,
+      "avg_data": 18.76,
+      "max_temp": 40.0,
+      "avg_temp": 36.21,
+      "avg_bat": 0,
+      "bad_fps_times": 707.0,
+      "bad_fps_ratio": 0.21
+    }
+  }, {
+    "DeviceName": "华为 畅享20pro",
+    "id": 697,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2400x1080",
+    "SystemVersion": "Android 10",
+    "perf": {
+      "max_cpu": 27.06,
+      "avg_cpu": 15.33,
+      "avg_fps": 26.73,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1418.79,
+      "avg_memory": 1018.45,
+      "avg_send": 2.92,
+      "avg_recv": 0.04,
+      "avg_data": 2.96,
+      "max_temp": 37.2,
+      "avg_temp": 34.94,
+      "avg_bat": 0,
+      "bad_fps_times": 590.0,
+      "bad_fps_ratio": 0.24
+    }
+  }, {
+    "DeviceName": "华为 畅享Max",
+    "id": 698,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2244x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 24.1,
+      "avg_cpu": 10.35,
+      "avg_fps": 19.84,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 677.49,
+      "avg_memory": 63.6,
+      "avg_send": 0.9,
+      "avg_recv": 0.14,
+      "avg_data": 1.04,
+      "max_temp": 34.0,
+      "avg_temp": 31.72,
+      "avg_bat": 0,
+      "bad_fps_times": 492.0,
+      "bad_fps_ratio": 0.82
+    }
+  }, {
+    "DeviceName": "华为 荣耀 8",
+    "id": 699,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "1920x1080",
+    "SystemVersion": "Android 8.0",
+    "perf": {
+      "max_cpu": 32.41,
+      "avg_cpu": 16.33,
+      "avg_fps": 21.87,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1301.45,
+      "avg_memory": 917.24,
+      "avg_send": 1.81,
+      "avg_recv": 0.1,
+      "avg_data": 1.91,
+      "max_temp": 41.0,
+      "avg_temp": 40.23,
+      "avg_bat": 0,
+      "bad_fps_times": 1478.0,
+      "bad_fps_ratio": 0.54
+    }
+  }, {
+    "DeviceName": "华为 荣耀8C",
+    "id": 700,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "1520x720",
+    "SystemVersion": "Android 8.1",
+    "perf": {
+      "max_cpu": 25.55,
+      "avg_cpu": 12.25,
+      "avg_fps": 19.94,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1289.89,
+      "avg_memory": 929.36,
+      "avg_send": 8.74,
+      "avg_recv": 0.09,
+      "avg_data": 8.83,
+      "max_temp": 38.5,
+      "avg_temp": 36.86,
+      "avg_bat": 0,
+      "bad_fps_times": 2241.0,
+      "bad_fps_ratio": 0.54
+    }
+  }, {
+    "DeviceName": "华为 荣耀9",
+    "id": 701,
+    "Result": false,
+    "Memory": "4GB",
+    "Screen": "1920x1080",
+    "SystemVersion": "Android 7.0",
+    "perf": {
+      "max_cpu": 30.89,
+      "avg_cpu": 18.22,
+      "avg_fps": 28.94,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1091.84,
+      "avg_memory": 823.65,
+      "avg_send": 4.28,
+      "avg_recv": 0.23,
+      "avg_data": 4.51,
+      "max_temp": 41.0,
+      "avg_temp": 38.62,
+      "avg_bat": 0,
+      "bad_fps_times": 242.0,
+      "bad_fps_ratio": 0.06
+    }
+  }, {
+    "DeviceName": "华为 荣耀9i",
+    "id": 702,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2280x1080",
+    "SystemVersion": "Android 8.0",
+    "perf": {
+      "max_cpu": 34.24,
+      "avg_cpu": 16.02,
+      "avg_fps": 18.88,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1285.17,
+      "avg_memory": 548.3,
+      "avg_send": 19.27,
+      "avg_recv": 0.18,
+      "avg_data": 19.45,
+      "max_temp": 41.0,
+      "avg_temp": 38.26,
+      "avg_bat": 0,
+      "bad_fps_times": 2155.0,
+      "bad_fps_ratio": 0.67
+    }
+  }, {
+    "DeviceName": "华为 荣耀9青春版",
+    "id": 703,
+    "Result": true,
+    "Memory": "3GB",
+    "Screen": "2160x1080",
+    "SystemVersion": "Android 8.0",
+    "perf": {
+      "max_cpu": 23.68,
+      "avg_cpu": 12.19,
+      "avg_fps": 17.24,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 546.41,
+      "avg_memory": 524.48,
+      "avg_send": 7.16,
+      "avg_recv": 0.07,
+      "avg_data": 7.23,
+      "max_temp": 40.0,
+      "avg_temp": 38.2,
+      "avg_bat": 0,
+      "bad_fps_times": 1667.0,
+      "bad_fps_ratio": 0.56
+    }
+  }, {
+    "DeviceName": "华为 荣耀10",
+    "id": 704,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2280x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 30.12,
+      "avg_cpu": 15.69,
+      "avg_fps": 26.28,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1091.22,
+      "avg_memory": 915.96,
+      "avg_send": 22.94,
+      "avg_recv": 0.16,
+      "avg_data": 23.1,
+      "max_temp": 44.0,
+      "avg_temp": 40.24,
+      "avg_bat": 0,
+      "bad_fps_times": 374.0,
+      "bad_fps_ratio": 0.09
+    }
+  }, {
+    "DeviceName": "华为 荣耀10青春版",
+    "id": 705,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 30.9,
+      "avg_cpu": 13.27,
+      "avg_fps": 26.08,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1338.7,
+      "avg_memory": 967.23,
+      "avg_send": 0,
+      "avg_recv": 0,
+      "avg_data": 0,
+      "max_temp": 0,
+      "avg_temp": 0,
+      "avg_bat": 0,
+      "bad_fps_times": 644.0,
+      "bad_fps_ratio": 0.26
+    }
+  }, {
+    "DeviceName": "华为 荣耀 Note8",
+    "id": 706,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2560x1440",
+    "SystemVersion": "Android 8.0",
+    "perf": {
+      "max_cpu": 26.87,
+      "avg_cpu": 12.96,
+      "avg_fps": 25.3,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1146.73,
+      "avg_memory": 891.09,
+      "avg_send": 1.7,
+      "avg_recv": 0.16,
+      "avg_data": 1.86,
+      "max_temp": 37.0,
+      "avg_temp": 33.49,
+      "avg_bat": 0,
+      "bad_fps_times": 679.0,
+      "bad_fps_ratio": 0.35
+    }
+  }, {
+    "DeviceName": "华为 荣耀V9",
+    "id": 707,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2560x1440",
+    "SystemVersion": "Android 7.0",
+    "perf": {
+      "max_cpu": 32.12,
+      "avg_cpu": 17.22,
+      "avg_fps": 28.01,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 479.95,
+      "avg_memory": 49.78,
+      "avg_send": 13.89,
+      "avg_recv": 13.48,
+      "avg_data": 27.37,
+      "max_temp": 47.0,
+      "avg_temp": 44.1,
+      "avg_bat": 0,
+      "bad_fps_times": 112.0,
+      "bad_fps_ratio": 0.04
+    }
+  }, {
+    "DeviceName": "荣耀 V9",
+    "id": 708,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2560x1440",
+    "SystemVersion": "Android 9",
+    "perf": {
+      "max_cpu": 17.25,
+      "avg_cpu": 9.3,
+      "avg_fps": 25.45,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 679.28,
+      "avg_memory": 418.54,
+      "avg_send": 3.15,
+      "avg_recv": 0.72,
+      "avg_data": 3.87,
+      "max_temp": 29.0,
+      "avg_temp": 28.56,
+      "avg_bat": 0,
+      "bad_fps_times": 17.0,
+      "bad_fps_ratio": 0.68
+    }
+  }, {
+    "DeviceName": "华为 荣耀V10",
+    "id": 709,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2160x1080",
+    "SystemVersion": "Android 8.0",
+    "perf": {
+      "max_cpu": 32.77,
+      "avg_cpu": 15.13,
+      "avg_fps": 23.3,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 885.99,
+      "avg_memory": 725.45,
+      "avg_send": 33.07,
+      "avg_recv": 0.13,
+      "avg_data": 33.2,
+      "max_temp": 39.0,
+      "avg_temp": 36.9,
+      "avg_bat": 0,
+      "bad_fps_times": 884.0,
+      "bad_fps_ratio": 0.31
+    }
+  }, {
+    "DeviceName": "华为 荣耀V20",
+    "id": 710,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2310x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 25.91,
+      "avg_cpu": 10.05,
+      "avg_fps": 27.73,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 709.84,
+      "avg_memory": 65.75,
+      "avg_send": 7.1,
+      "avg_recv": 0.12,
+      "avg_data": 7.22,
+      "max_temp": 37.0,
+      "avg_temp": 34.89,
+      "avg_bat": 0,
+      "bad_fps_times": 264.0,
+      "bad_fps_ratio": 0.08
+    }
+  }, {
+    "DeviceName": "魅族 16T",
+    "id": 711,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2232x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 25.28,
+      "avg_cpu": 10.94,
+      "avg_fps": 27.59,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 694.49,
+      "avg_memory": 79.77,
+      "avg_send": 1.35,
+      "avg_recv": 0.16,
+      "avg_data": 1.51,
+      "max_temp": 30.7,
+      "avg_temp": 28.72,
+      "avg_bat": 0,
+      "bad_fps_times": 125.0,
+      "bad_fps_ratio": 0.16
+    }
+  }, {
+    "DeviceName": "魅族 16Xs",
+    "id": 712,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2232x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 25.06,
+      "avg_cpu": 8.19,
+      "avg_fps": 27.26,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1016.17,
+      "avg_memory": 112.18,
+      "avg_send": 1.69,
+      "avg_recv": 0.13,
+      "avg_data": 1.82,
+      "max_temp": 45.8,
+      "avg_temp": 41.32,
+      "avg_bat": 0,
+      "bad_fps_times": 415.0,
+      "bad_fps_ratio": 0.14
+    }
+  }, {
+    "DeviceName": "魅族 17",
+    "id": 713,
+    "Result": true,
+    "Memory": "8GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 10",
+    "perf": {
+      "max_cpu": 24.44,
+      "avg_cpu": 9.77,
+      "avg_fps": 29.19,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1421.06,
+      "avg_memory": 986.62,
+      "avg_send": 0.84,
+      "avg_recv": 0.18,
+      "avg_data": 1.02,
+      "max_temp": 32.7,
+      "avg_temp": 30.78,
+      "avg_bat": 0,
+      "bad_fps_times": 252.0,
+      "bad_fps_ratio": 0.13
+    }
+  }, {
+    "DeviceName": "诺基亚 X7",
+    "id": 714,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2246x1080",
+    "SystemVersion": "Android 8.1",
+    "perf": {
+      "max_cpu": 27.26,
+      "avg_cpu": 12.0,
+      "avg_fps": 28.26,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1018.27,
+      "avg_memory": 853.52,
+      "avg_send": 0.66,
+      "avg_recv": 0.24,
+      "avg_data": 0.9,
+      "max_temp": 40.0,
+      "avg_temp": 39.61,
+      "avg_bat": 0,
+      "bad_fps_times": 115.0,
+      "bad_fps_ratio": 0.12
+    }
+  }, {
+    "DeviceName": "三星 Galaxy S7 edge",
+    "id": 715,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2560x1440",
+    "SystemVersion": "Android 8.0",
+    "perf": {
+      "max_cpu": 62.88,
+      "avg_cpu": 34.78,
+      "avg_fps": 23.95,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 801.62,
+      "avg_memory": 75.59,
+      "avg_send": 1.29,
+      "avg_recv": 0.11,
+      "avg_data": 1.4,
+      "max_temp": 43.4,
+      "avg_temp": 40.9,
+      "avg_bat": 0,
+      "bad_fps_times": 1230.0,
+      "bad_fps_ratio": 0.43
+    }
+  }, {
+    "DeviceName": "小米6",
+    "id": 716,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "1920x1080",
+    "SystemVersion": "Android 7.1",
+    "perf": {
+      "max_cpu": 33.22,
+      "avg_cpu": 18.57,
+      "avg_fps": 28.09,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1364.33,
+      "avg_memory": 974.68,
+      "avg_send": 2.94,
+      "avg_recv": 0.14,
+      "avg_data": 3.08,
+      "max_temp": 42.0,
+      "avg_temp": 39.84,
+      "avg_bat": 0,
+      "bad_fps_times": 556.0,
+      "bad_fps_ratio": 0.17
+    }
+  }, {
+    "DeviceName": "小米 8",
+    "id": 717,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2248x1080",
+    "SystemVersion": "Android 10.0",
+    "perf": {
+      "max_cpu": 22.18,
+      "avg_cpu": 10.99,
+      "avg_fps": 28.75,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 987.4,
+      "avg_memory": 810.74,
+      "avg_send": 1.87,
+      "avg_recv": 0.07,
+      "avg_data": 1.94,
+      "max_temp": 39.0,
+      "avg_temp": 36.71,
+      "avg_bat": 0,
+      "bad_fps_times": 124.0,
+      "bad_fps_ratio": 0.04
+    }
+  }, {
+    "DeviceName": "小米 Max 3",
+    "id": 718,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "2160x1080",
+    "SystemVersion": "Android 8.1",
+    "perf": {
+      "max_cpu": 37.12,
+      "avg_cpu": 15.34,
+      "avg_fps": 23.68,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1350.44,
+      "avg_memory": 943.25,
+      "avg_send": 1.1,
+      "avg_recv": 0.17,
+      "avg_data": 1.27,
+      "max_temp": 39.0,
+      "avg_temp": 37.16,
+      "avg_bat": 0,
+      "bad_fps_times": 1216.0,
+      "bad_fps_ratio": 0.39
+    }
+  }, {
+    "DeviceName": "小米 Max 2(root)",
+    "id": 719,
+    "Result": true,
+    "Memory": "4GB",
+    "Screen": "1920x1080",
+    "SystemVersion": "Android 7.0",
+    "perf": {
+      "max_cpu": 30.58,
+      "avg_cpu": 14.74,
+      "avg_fps": 22.4,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1347.98,
+      "avg_memory": 953.65,
+      "avg_send": 1.93,
+      "avg_recv": 0.16,
+      "avg_data": 2.09,
+      "max_temp": 36.0,
+      "avg_temp": 34.11,
+      "avg_bat": 0,
+      "bad_fps_times": 1079.0,
+      "bad_fps_ratio": 0.52
+    }
+  }, {
+    "DeviceName": "小米 红米Note7 pro",
+    "id": 720,
+    "Result": true,
+    "Memory": "6GB",
+    "Screen": "2340x1080",
+    "SystemVersion": "Android 9.0",
+    "perf": {
+      "max_cpu": 25.11,
+      "avg_cpu": 10.4,
+      "avg_fps": 27.01,
+      "max_gpu": 0,
+      "avg_gpu": 0,
+      "max_memory": 1467.88,
+      "avg_memory": 1051.16,
+      "avg_send": 1.56,
+      "avg_recv": 0.13,
+      "avg_data": 1.69,
+      "max_temp": 38.3,
+      "avg_temp": 36.58,
+      "avg_bat": 0,
+      "bad_fps_times": 701.0,
+      "bad_fps_ratio": 0.19
+    }
+  }]
+
+
+}
